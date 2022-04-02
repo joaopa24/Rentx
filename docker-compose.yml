@@ -21,7 +21,8 @@ services:
     - 3333:3333
   volumes:
     - .:/urs/app  
-  network_mode: host   
+  depends_on:
+    - database_ignite
 
 volumes:
   pgdata:
