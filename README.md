@@ -2,7 +2,7 @@
   <img src="src/logo.svg"/>
   <br/>
   <br/>
-  Car rental API developed during Ignite bootcamp from Rocketseat.
+  Car rental API developed during Ignite bootcamp from Rocketseat - Teste
 </h2>
 
 ---
