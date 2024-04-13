@@ -72,6 +72,13 @@ $ git clone https://github.com/joaopa12/Rentx
 ```
 #install the dependencies
 $ yarn
+
+# Start all the services and the application with Docker Compose
+$ docker-compose up -d
+
+# Once the services are running, run the migrations
+$ yarn migration:run
+
 #start the server
 $ yarn dev
 ```
